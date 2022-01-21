@@ -1,10 +1,3 @@
-import { defineStore } from "pinia";
+import { useUserStore } from "./user";
 
-export const useStore = defineStore('1', {
-  state: () => {
-    return {
-      counter: 1
-    }
-  }
-})
-
+export default useUserStore
